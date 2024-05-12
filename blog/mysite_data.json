@@ -1,0 +1,747 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-05-05T12:39:20.311Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "O maior campeão do Brasil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-05-05T12:49:53.233Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Django Reinhardt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-05-05T12:51:52.538Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-05-05T12:57:38.355Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "O descobridor do Brasil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-05-06T00:44:28.228Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "O maior campeão do Brasil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-05-06T00:44:39.933Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-05-06T00:44:48.117Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "O descobridor do Brasil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-05-06T03:15:50.625Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Another post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-05-06T03:17:45.805Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Notes on Duke Ellington",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-05-06T03:18:50.819Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Who was Miles Davis?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-05-06T03:20:41.749Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "O maior campeão do Brasil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 8,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 8,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 8,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 8,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 11,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 11,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 11,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 11,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$ep9aHHzQnC4BPogQNNzEQR$g7k1WYIGaTLsbUt7S7OfPHPlTDI0j8MS+D3dMhFWgfQ=",
+    "last_login": "2024-05-05T05:31:39.304Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-05-05T05:27:39.890Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zeu1hrm2l5s998gv4sd6gkoib4hg6lw6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgIODSfc9AZjqDVA0kpV0Z765NutDtf-_9l0iwrSVtnZc0k7gILU6_G8L04LoDukO9NTm1ui4zyl2RB-1ybMTP6-H-HRTo5VuHwTDSOQZWWVnrrY2W2LCbcrbZgHPBeBOM86SdZ-2GGIAIkVCjZyXeH9eFN-E:1s3UTL:esTwp9uXlCTyUhsl1OpPtDsv0vCaDR_3mh7s9g2jbNU",
+    "expire_date": "2024-05-19T05:31:39.307Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "O maior campeão do Brasil",
+    "slug": "o-maior-campeao-do-brasil",
+    "author": 1,
+    "body": "Sociedade Esportiva Palmeiras (pronúncia em português: [sosiedˈadʒi ispoɾtʃˈivə pawmˈejɾəs]), conhecida popularmente como Palmeiras, é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. Foi fundado em 26 de agosto de 1914 e suas cores, presentes no escudo e bandeira oficial, são o verde e branco.[3] O vermelho, presente desde sua fundação em 1914, foi excluído durante a Segunda Guerra Mundial, por pressão do governo de Getúlio Vargas, na mesma reunião que formalizou a mudança de nome de Palestra Italia para Palmeiras.[4]\r\n\r\nTem como modalidade esportiva principal o futebol, como um dos clubes mais vencedores e de maior relevância em todo o continente, além de estar entre aqueles com maior torcida do país.[5] Seus títulos mais importantes conquistados no futebol são as Copas Libertadores da América de 1999,[6] 2020[7] e de 2021,[8] e a Copa Rio (internacional) de 1951, considerado na época como um Mundial de Clubes de futebol[9] e reconhecido como tal pela FIFA, por meio do presidente da entidade, Joseph Blatter, em agosto de 2014, sendo uma decisão do Comitê Executivo da FIFA de 7 de junho e por meio de documento encaminhado ao Ministério do Esporte do Brasil em novembro do mesmo ano. A entidade, no entanto, não reconhece a competição como um torneio FIFA e reforçou este posicionamento em outubro de 2017, quando reconheceu os vencedores da Copa Intercontinental como campeões mundiais, sem, também, promover a unificação da Copa Intercontinental com a sua atual competição.[18][19] No âmbito internacional, o clube também conquistou a Copa Mercosul de 1998 e a Recopa Sul-Americana de 2022.\r\n\r\nEleito o melhor time do mundo de 2021 no ranking da Federação Internacional de História e Estatísticas do Futebol (IFFHS, na sigla em inglês), o Palmeiras é a equipe brasileira com o maior número de títulos de abrangência nacional conquistados, sendo o único a vencer todas as competições oficiais que disputou criadas no País, inicialmente pela Confederação Brasileira de Desportos (CBD) e, a partir de 1980, pela Confederação Brasileira de Futebol (CBF).[22] O alviverde possui 18 conquistas deste porte,[23] com destaque maior para seus 12 títulos do Campeonato Brasileiro (atual recordista):[24] 1960, 1967,(1) 1967,(2) 1969, 1972, 1973, 1993, 1994, 2016, 2018, 2022 e 2023. Além destes campeonatos, o Palmeiras já venceu no país as Copas do Brasil de 1998, 2012, 2015 e de 2020, a Supercopa do Brasil de 2023 e a Copa dos Campeões de 2000, competições também organizadas pela entidade máxima do futebol brasileiro.\r\n\r\nNo Estado de São Paulo, o Palmeiras também é um dos principais vencedores, com 26 conquistas do Campeonato Paulista de Futebol e mais dois títulos extra da mesma competição. Em 1996, o alviverde conquistou o estadual daquele ano com a melhor campanha de uma equipe na era profissional neste campeonato.[25] Na ocasião, foi campeão com 83 pontos ganhos em 90 possíveis, com um índice de aproveitamento de 92,2% dos pontos disputados e 102 gols marcados em 30 jogos realizados. Desde então, esta marca jamais foi alcançada por qualquer outra equipe na competição.\r\n\r\nNo mais recente Ranking Nacional de Clubes da CBF, que leva em conta o comportamento das equipes nas últimas cinco temporadas e que foi divulgado em dezembro de 2023, o Palmeiras é o segundo colocado, com 15 372 pontos.[2] No último ranking da confederação que levou em conta um período histórico mais abrangente do futebol brasileiro e que foi divulgado em 2011, o Palmeiras foi o líder, com 2 366 pontos.[27] Em 2005, no dia 11 de outubro, foi sancionada na cidade de São Paulo a Lei n.º 14 060, que definiu o dia 20 de setembro como o \"Dia da Sociedade Esportiva Palmeiras\", que passou a ser lembrado anualmente na capital paulista, já que passou a integrar o Calendário Oficial do Município.",
+    "publish": "2024-05-05T12:35:28Z",
+    "created": "2024-05-05T12:39:20.308Z",
+    "updated": "2024-05-06T03:20:41.746Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Who was Django Reinhardt?",
+    "slug": "django-reinhardt",
+    "author": 1,
+    "body": "Jean \"Django\" Reinhardt foi um guitarrista de jazz francês nascido na Bélgica de etnia rom. Considerado um dos melhores e mais influentes guitarristas de todos os tempos, ele também influenciou vários músicos e inovou ao ajudar a criar o estilo gypsy jazz. Wikipédia\r\nNascimento: 23 de janeiro de 1910, Liberchies, Pont-à-Celles, Bélgica\r\nFalecimento: 16 de maio de 1953, Samois-sur-Seine, França\r\nPais: Laurence Reinhardt, Jean Eugene Weiss\r\nFilhos: Babik Reinhardt, Henri Baumgartner, Henri Reinhardt",
+    "publish": "2024-05-05T12:47:35Z",
+    "created": "2024-05-05T12:49:53.231Z",
+    "updated": "2024-05-06T00:44:39.931Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "O descobridor do Brasil",
+    "slug": "o-descobridor-do-brasil",
+    "author": 1,
+    "body": "Pedro Álvares Cabral[A] (Belmonte, 1467 ou 1468 – Santarém, c. 1520) foi um fidalgo, comandante militar, navegador e explorador português, creditado como o descobridor do Brasil. Realizou significativa exploração da costa nordeste da América do Sul, reivindicando-a para Portugal. Embora os detalhes da vida de Cabral sejam esparsos, sabe-se que veio de uma família nobre colocada na província interior e recebeu uma boa educação formal.\r\n\r\nFoi nomeado para chefiar uma expedição à Índia em 1500, seguindo a rota recém-inaugurada por Vasco da Gama, contornando a África. O objetivo deste empreendimento era retornar com especiarias valiosas e estabelecer relações comerciais na Índia — contornando o monopólio sobre o comércio de especiarias, então nas mãos de comerciantes árabes, turcos e italianos. Sua frota, de 13 navios, afastou-se bastante da costa africana, talvez intencionalmente, desembarcando no que ele inicialmente achou tratar-se de uma grande ilha à qual deu o nome de Vera Cruz e a que Pêro Vaz de Caminha faz referência. Explorou o litoral e percebeu que a grande massa de terra era provavelmente um continente, despachando em seguida um navio para notificar o rei Manuel I da descoberta das terras. Como o novo território se encontrava dentro do hemisfério português de acordo com o Tratado de Tordesilhas, reivindicou-o para a Coroa Portuguesa. Havia desembarcado na América do Sul, e as terras que havia reivindicado para o Reino de Portugal mais tarde constituiriam o Brasil. A frota reabasteceu-se e continuou rumo ao leste, com a finalidade de retomar a viagem rumo à Índia.\r\n\r\nNessa mesma expedição uma tempestade no Atlântico Sul provocou a perda de sete navios; as seis embarcações restantes encontraram-se eventualmente no Canal de Moçambique antes de prosseguirem para Calecute, na Índia. Cabral inicialmente obteve sucesso na negociação dos direitos de comercialização das especiarias, mas os comerciantes árabes consideraram o negócio português como uma ameaça ao monopólio deles e provocaram um ataque de muçulmanos e hindus ao entreposto português. Os portugueses sofreram várias baixas e suas instalações foram destruídas. Cabral vingou-se do ataque saqueando e queimando a frota árabe e, em seguida, bombardeou a cidade em represália à incapacidade de seu governante em explicar o ocorrido. De Calecute a expedição rumou para Cochim, outra cidade-estado indiana, onde Cabral fez amizade com seu governante e carregou seus navios com especiarias cobiçadas antes de retornar para a Europa. Apesar da perda de vidas humanas e de navios, a viagem de Cabral foi considerada um sucesso após o seu regresso a Portugal. Os lucros extraordinários resultantes da venda das especiarias reforçaram as finanças da Coroa Portuguesa e ajudaram a lançar as bases de um Império Português, que se estenderia das Américas ao Extremo Oriente.[B]\r\n\r\nCabral foi mais tarde preterido quando uma nova frota foi reunida para estabelecer uma presença mais robusta na Índia, possivelmente como resultado de uma desavença com Manuel I. Tendo perdido a preferência do rei, aposentou-se da vida pública, havendo poucos registros sobre a parte final de sua vida. Suas realizações caíram no esquecimento por mais de 300 anos. Algumas décadas depois da independência do Brasil de Portugal, no século XIX, a reputação de Cabral começou a ser reabilitada pelo Imperador Pedro II do Brasil. Desde então, os historiadores têm discutido se Cabral foi o descobridor do Brasil e se a descoberta foi acidental ou intencional. A primeira dúvida foi resolvida pela observação de que os poucos encontros superficiais feitos por exploradores antes dele mal foram notados e em nada contribuíram para o desenvolvimento e a história futuros da terra que se tornaria o Brasil, única nação das Américas onde a língua oficial é o português. Quanto à segunda questão, nenhum consenso definitivo foi formado e a hipótese de descoberta intencional carece de provas sólidas. Não obstante, embora seu prestígio tenha sido ofuscado pela fama de outros exploradores da época, Cabral é hoje considerado uma das personalidades mais importantes da Era dos Descobrimentos.",
+    "publish": "2024-05-05T12:54:30Z",
+    "created": "2024-05-05T12:57:38.353Z",
+    "updated": "2024-05-06T00:44:48.116Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Another post",
+    "slug": "another-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2024-05-05T14:20:35Z",
+    "created": "2024-05-05T14:20:45.963Z",
+    "updated": "2024-05-06T03:15:50.622Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Notes on Duke Ellington",
+    "slug": "notes-on-duke-ellington",
+    "author": 1,
+    "body": "Edward Kennedy \"Duke\" Ellington (Washington, 29 de Abril de 1899 — Nova Iorque, 24 de Maio de 1974) foi um compositor de jazz, pianista e líder de orquestra estadunidense eternizado com a alcunha de \"The Duke\" e distinguido com a Presidential Medal of Freedom (condecoração americana) em 1969 e com a Legião de Honra (condecoração francesa) em 1973, sendo ambas as distinções as mais elevadas que um civil pode receber. Foi ainda o primeiro músico de jazz a entrar para a Academia Real de Música de Estocolmo, e foi honoris causa nas mais importantes universidades do mundo.\r\n\r\nA música de Duke Ellington foi uma das maiores influências no jazz desde a década de 1920 até à de 1960. Ainda hoje suas obras têm influência apreciável e é, por isso, considerado o maior compositor de jazz americano de todos os tempos. Entre os seus muitos êxitos encontram-se \"Take the A Train\" (letra e música por Billy Strayhorn), \"Satin Doll\", \"Rockin' in Rhythm\", \"Mood Indigo\", \"Caravan\", \"Sophisticated Lady\", e \"It Don't Mean a Thing (If It Ain't Got that Swing)\". Durante os anos 1920 e 30, Ellington partilhava frequentemente seus créditos de compositor com seu manager Irving Mills, até que no final dos anos 1930 desentenderam-se. Billy Strayhorn passou a ser o colaborador de Ellington (nem sempre creditado como tal) desde 1940 até à sua morte nos anos 1970.\r\n\r\nEllington tinha a preocupação de adaptar as suas composições de acordo com o talento dos músicos que compunham a sua orquestra, entre eles estiveram Johnny Hodges, Bubber Miley, Joe \"Tricky Sam\" Nanton, Barney Bigard, Ben Webster, Harry Carney, Sonny Greer, Otto Hardwick, e Wellman Braud. Muitos músicos permaneceram ao lado de Ellington durante décadas.",
+    "publish": "2024-05-06T03:15:50Z",
+    "created": "2024-05-06T03:17:45.803Z",
+    "updated": "2024-05-06T03:17:45.803Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Who was Miles Davis?",
+    "slug": "who-was-miles-davis",
+    "author": 1,
+    "body": "Miles Dewey Davis III (Alton, 26 de maio de 1926 – Santa Mônica, 28 de setembro de 1991) foi um trompetista, compositor e bandleader de jazz norte-americano.\r\n\r\nConsiderado um dos mais influentes músicos do século XX, Davis esteve na vanguarda de quase todos os desenvolvimentos do jazz desde a Segunda Guerra Mundial até a década de 1990. Ele participou de várias gravações do bebop e das primeiras gravações do cool jazz. Foi parte do desenvolvimento do jazz modal, e também do jazz fusion que originou-se do trabalho dele com outros músicos no final da década de 1960 e no começo da década de 1970.\r\n\r\nMiles Davis pertenceu a uma classe tradicional de trompetistas de jazz, que começou com Buddy Bolden e desenvolveu-se com Joe \"King\" Oliver, Louis Armstrong, Roy Eldridge e Dizzy Gillespie. Ao contrário desses músicos ele nunca foi considerado com um alto nível de habilidade técnica. Seu grande êxito como músico, entretanto, foi ir mais além do que ser influente e distinto em seu instrumento, e moldar estilos inteiros e maneiras de fazer música através dos seus trabalhos. Muitos dos mais importantes músicos de jazz fizeram seu nome na segunda metade do século XX nos grupos de Miles Davis, incluindo: Joe Zawinul, Chick Corea e Herbie Hancock, os saxofonistas John Coltrane, Wayne Shorter, George Coleman e Kenny Garrett, o baterista Tony Williams e o guitarrista John McLaughlin.\r\n\r\nComo trompetista Davis tinha um som puro e claro, mas também uma incomum liberdade de articulação e altura. Ele ficou conhecido por ter um registro baixo e minimalista de tocar, mas também era capaz de conseguir alta complexidade e técnica com seu trompete.\r\n\r\nEm 13 de Março de 2006, Davis foi postumamente incluído no Rock and Roll Hall of Fame. Ele foi também incluído no St. Louis Walk of Fame, Big Band and Jazz Hall of Fame, e no Down Beat's Jazz Hall of Fame.\r\n\r\nKind of Blue tem sido citado como o álbum de Miles Davis mais vendido da sua carreira, bem como o álbum de jazz mais vendido da história. Em 7 de setembro de 2008, o álbum foi certificado pela RIAA (Associação das Indústrias Fonográficas Americanas) com um álbum de platina quádruplo. Kind of Blue é também reconhecido por muitos fãs, críticos e ouvintes de jazz como o maior álbum de jazz de todos os tempos, frequentemente alcançando o topo listas de \"melhores álbuns\" de vários outros gêneros além do jazz. Em 2002, a gravação do álbum foi uma das 50 escolhidas naquele ano para o Registro Nacional de Gravações da Biblioteca do Congresso Americano. E Em 2003, o álbum foi classificado em 12º lugar pela revista Rolling Stone em sua Lista dos 500 melhores álbuns de sempre. Em 30 de setembro de 2008 um box do 50º aniversário de lançamento do álbum foi lançada pela Columbia/Legacy Records.",
+    "publish": "2024-05-06T03:17:45Z",
+    "created": "2024-05-06T03:18:50.817Z",
+    "updated": "2024-05-06T03:18:50.817Z",
+    "status": "PB"
+  }
+}
+]
