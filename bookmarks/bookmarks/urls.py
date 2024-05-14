@@ -22,6 +22,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('account/', include('bookmarks.account.urls')),
+    path('images/', include('bookmarks.images.urls', namespace='images')),
 ]
 
 if settings.DEBUG:
