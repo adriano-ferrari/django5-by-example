@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'easy_thumbnails',
     # MyApps
     'bookmarks.images.apps.ImagesConfig',
+    'bookmarks.actions.apps.ActionsConfig',
 ]
 
 MIDDLEWARE = [
